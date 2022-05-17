@@ -1,0 +1,181 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #3d68a5 0%, #f5f5f5 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 3em;
+    margin-bottom: .1em;
+    margin-top: 3rem;
+    color: #fff;
+    text-shadow: -3px -3px 5px #000;
+    
+
+}
+p{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+form {
+    margin-top: 2.5rem;
+    background-color: #fff;
+    box-shadow: -3px -3px 5px #000;
+    border-radius: 5px;
+}
+
+form input {
+    width: 30rem;
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    color: #000;
+    border-radius: 5px;
+}
+
+#time {
+    width: 7rem;
+    font-size: .9em;
+    border-left: 2px solid #000;
+    padding-left: 2px;
+    border-radius: 5px;
+}
+.blue-cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    margin-top: 2rem;
+}
+
+.daily-stats-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: 5rem;
+    background-color: rgba(129, 215, 255, 0.333);
+    color: rgb(255, 255, 255);
+    box-shadow: -3px -3px 5px #000;
+    border-radius: 5px;
+}
+
+.time-convertor-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.daily-stats-item{
+    margin-bottom: .5rem;
+}
+.daily-stats-header{
+    margin-bottom: .8rem;
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+label{
+    visibility: hidden;
+}
+
+form button{
+    width: 4rem;
+    height: 2.65rem;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    color: #000;
+    background: linear-gradient(to top, #2e856b 10%, #aefcc8 100%);
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.time-input{
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    color: #000;
+    border-radius: 5px;
+
+}
+.time-convertor-item{
+    margin-bottom: 1rem;
+}
+
+.convert-btn{
+    background: linear-gradient(to top, #2e856b 10%, #aefcc8 100%);
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: .5rem 1rem;
+    font-size: 1.2em;
+}
+
+
+.container{
+    margin-top: 3rem;
+
+}
+
+ul{
+    list-style: none;
+    min-width: 30rem;
+    max-width: 50rem;
+    margin: 1rem 4rem;
+}
+
+ul li{
+    width: 100%;
+    background:#fff;
+    height: auto;
+    line-height: 2.5rem;
+    padding: 0 1rem;
+    position: relative;
+    cursor: pointer;
+    display: block;
+    margin: 1rem 0;
+    box-shadow: -3px -3px 5px #000;
+    transition: .5s linear;
+    border-radius: 5px;
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2.5rem;
+    height: 2.6rem;
+    text-align: center;
+    padding-top: .3rem;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+    background: linear-gradient(to top, #ca1b1b 10%, #ffb3b3 100%);
+}
